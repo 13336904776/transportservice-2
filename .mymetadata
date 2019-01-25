@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="transportservice"
+  id="myeclipse.1547686986592"
+  context-root="/transportservice"
+  j2ee-spec="5.0"
+  archive="transportservice.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+
