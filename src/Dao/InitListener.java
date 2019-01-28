@@ -5,7 +5,9 @@ import java.util.Date;
 import javax.servlet.ServletContextEvent;
 import javax.servlet.ServletContextListener;
 
+import Config.AppConfig;
 import Models.Car;
+import Models.Park;
 import Models.TrafficLight;
 
 public class InitListener implements ServletContextListener{
@@ -57,6 +59,10 @@ public class InitListener implements ServletContextListener{
 		light4.setYellowTime(8);
 		Sandbox.trafficLightList.add(light4);
 		
+		Park park = new Park();
+		park.setMoney(5);
+		park.setRateType("Count");
+		Sandbox.park = park;
 	}
 
 }

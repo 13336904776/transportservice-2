@@ -43,8 +43,8 @@ public class ParkController {
 		String rateType = Sandbox.park.getRateType();
 		int money = Sandbox.park.getMoney();
 		
-		String result = "{serverinfo:{'" + AppConfig.KEY_RATE_TYPE +"':'" + rateType + ","
-						+ "'" + AppConfig.KEY_MONEY + "':" + Integer.toString(money) + "}}";
+		String result = "{serverinfo:{'" + AppConfig.KEY_RATE_TYPE +"':'" + rateType + "'"
+						+ "," + AppConfig.KEY_MONEY + "':" + Integer.toString(money) + "}}";
 		
 		System.out.println("·¢ËÍ£º" + result);
 		NetStream.write(response, result);
